@@ -80,16 +80,25 @@ function MainContent({ currentPage }) {
               <Card image="/stare.png" title="Synnedsatta upplever en sämre användarupplevelse" description="En kort beskrivning av nyheten." />
               <Card image="/newyork.png" title="New Yorks biggest economy crisis in ten years" description="En annan kort beskrivning." />
               <Card image="/eu.png" title="EU vägrar ha omröstning" description="Ytterligare en beskrivning." />
+              <Card image="/tak.png" title="Elpriser ökar igen" description="Rekordnivåer i hela Europa." />
+              <Card image="/tidning.png" title="Barnbidrag förändras" description="Nya regler gäller från maj." />
+              <Card image="/glasögon.png" title="Tågstrejk i Tyskland" description="Kan påverka semestertrafiken." />
             </div>
             <div className="middle-column">
               <Card image="/egg.png" title="Nyhet 4" description="En fjärde nyhet." />
-              <Card image="/nationellaprovet.png" title="Nyhet 4" description="En fjärde nyhet." />
-              <Card image="/politik.png" title="Nyhet 4" description="En fjärde nyhet." />
+              <Card image="/nationellaprovet.png" title="Nationella provet läckt" description="Stora konsekvenser väntas." />
+              <Card image="/politik.png" title="Politiker i blåsväder" description="Granskning pågår." />
+              <Card image="/baseboll.png" title="Baseboll" description="Baseboll rack" />
+              <Card image="/slott.png" title="Kungliga slottet" description="Slott." />
+              <Card image="/ingenjör.png" title="Fler startar företag" description="Ny rapport visar ökning." />
             </div>
             <div className="right-column">
-              <Card image="/royalty.png" title="Nyhet 5" description="En femte nyhet." />
-              <Card image="/slott.png" title="Nyhet 6" description="En sjätte nyhet." />
-              <Card image="/pengar.png" title="Nyhet 6" description="En sjätte nyhet." />
+              <Card image="/royalty.png" title="Kungligt bröllop" description="Ett storslaget evenemang." />
+              <Card image="/slott.png" title="Ny konstutställning" description="Visas i slottets galleri." />
+              <Card image="/pengar.png" title="Ekonomiska tips" description="Så sparar du bäst." />
+              <Card image="/kungligt.png" title="Modeveckan startar" description="Designers visar framtiden." />
+              <Card image="/webb.png" title="Streamingkrig hårdnar" description="Fler tjänster på marknaden." />
+              <Card image="/mobil.png" title="Sommarens festivaler" description="Fullspäckat schema i juli." />
             </div>
           </div>
         );
@@ -100,7 +109,8 @@ function MainContent({ currentPage }) {
               <TransformWrapper>
                 <TransformComponent>
                   <p className="zoomable-text">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                    {/* Lorem ipsum-texten här */}
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit...
                   </p>
                 </TransformComponent>
               </TransformWrapper>
@@ -112,26 +122,20 @@ function MainContent({ currentPage }) {
           <div className="sport-content">
             <h1 className="header-title">Sport Nyheter</h1>
             <TransformWrapper>
-  <TransformComponent>
-    <p className="small-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
-  </TransformComponent>
-</TransformWrapper>
-
-
-<TransformWrapper>
-  <TransformComponent>
-    <p className="medium-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
-  </TransformComponent>
-</TransformWrapper>
-
-
-<TransformWrapper>
-  <TransformComponent>
-    <p className="large-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
-  </TransformComponent>
-</TransformWrapper>
-
-
+              <TransformComponent>
+                <p className="small-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
+              </TransformComponent>
+            </TransformWrapper>
+            <TransformWrapper>
+              <TransformComponent>
+                <p className="medium-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
+              </TransformComponent>
+            </TransformWrapper>
+            <TransformWrapper>
+              <TransformComponent>
+                <p className="large-text">Fusce convallis, mauris imperdiet gravida bibendum</p>
+              </TransformComponent>
+            </TransformWrapper>
           </div>
         );
       case "politik":
@@ -151,43 +155,42 @@ function MainContent({ currentPage }) {
             </div>
           </div>
         );
-        case "noje":
-          return (
-            <div className="noje-content">
-              <h1>Nöje - Nyheter</h1>
-              <TransformWrapper>
-                <TransformComponent>
-                  <table className="news-table">
-                    <thead>
-                      <tr>
-                        <th>Nyhet</th>
-                        <th>Beskrivning</th>
-                        <th>Datum</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Paris fashion week</td>
-                        <td>Det största eventet under 2025 i Frankrike.</td>
-                        <td>2025-04-15</td>
-                      </tr>
-                      <tr>
-                        <td>Oscar galan</td>
-                        <td>Den årliga klassiska galan hålls i Los Angeles iår.</td>
-                        <td>2025-04-27</td>
-                      </tr>
-                      <tr>
-                        <td>Balett i kungliga teatern</td>
-                        <td>Svansjön har premiär återigen, men med en annan huvudroll.</td>
-                        <td>2025-04-19</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </TransformComponent>
-              </TransformWrapper>
-            </div>
-          );
-       
+      case "noje":
+        return (
+          <div className="noje-content">
+            <h1>Nöje - Nyheter</h1>
+            <TransformWrapper>
+              <TransformComponent>
+                <table className="news-table">
+                  <thead>
+                    <tr>
+                      <th>Nyhet</th>
+                      <th>Beskrivning</th>
+                      <th>Datum</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Paris fashion week</td>
+                      <td>Det största eventet under 2025 i Frankrike.</td>
+                      <td>2025-04-15</td>
+                    </tr>
+                    <tr>
+                      <td>Oscar galan</td>
+                      <td>Den årliga klassiska galan hålls i Los Angeles iår.</td>
+                      <td>2025-04-27</td>
+                    </tr>
+                    <tr>
+                      <td>Balett i kungliga teatern</td>
+                      <td>Svansjön har premiär återigen, men med en annan huvudroll.</td>
+                      <td>2025-04-19</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </TransformComponent>
+            </TransformWrapper>
+          </div>
+        );
       default:
         return <div>Hem - Nyheter</div>;
     }
@@ -223,3 +226,5 @@ function Card({ image, title, description }) {
 
 
 export default App;
+
+
